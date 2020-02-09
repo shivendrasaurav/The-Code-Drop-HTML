@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+ <html>
+      <head>
+        <title>YadaYada</title>
+        <style>
+          .disp_blk{
+            display: block;
+          }
+          .disp_inl{
+            display: inline;
+          }
+          .disp_inlblk{
+            display: inline-block;
+            width: 400px;
+            height: 20px;
+            background: #EEE;
+          }
+          .disp_none{
+            display: none;
+          }
+          .pos_stc{
+            top: 100px;
+            left: 200px;
+            position: static;
+          }
+          .pos_rel{
+            position: relative;
+            top: 10px;
+            left: 200px;
+          }
+          .pos_fix{
+            position: fixed;
+            top: 100px;
+            left: 400px
+          }
+          .pos_abs{
+            position: absolute;
+            top: 200px;
+            left: 600px;
+          }
+          .pos_stk{
+            position: sticky;
+            top: 100px;
+            background: #000;
+            padding: 5px;
+          }
+        </style>
+      </head>
+      <body>
+        <h2>Display</h2>
+        <img src="new.jpg" class="disp_blk">
+        <img src="new.jpg" class="disp_blk">
+        <br><br>
+        <p class="pos_stk">Sticky</p>
+        <br><br>
+        <p class="disp_inl">This Is A Paragraph</p>
+        <p class="disp_inl">This Is Second Paragraph</p>
+        <br><br>
+        <p class="disp_inlblk">This Is 3rd Paragraph</p>
+        <p class="disp_inlblk">This Is 4th Paragraph</p>
+        <br><br>
+        <img src="new.jpg" class="disp_none">
+        <img src="new.jpg" class="disp_none">
+        <br><br>
+        <h2>Positioning</h2>
+        <p class="pos_stc">Static</p>
+        <br><br>
+        <p class="pos_rel">Relative</p>
+        <br><br>
+        <p class="pos_fix">Fixed</p>
+        <br><br>
+        <p class="pos_abs">Absolute</p>
+
+        <p class="disp_inl">This Is A Paragraph</p>
+        <p class="disp_inl">This Is Second Paragraph</p>
+        <br><br>
+        <p class="disp_inlblk">This Is 3rd Paragraph</p>
+        <p class="disp_inlblk">This Is 4th Paragraph</p>
+        <br><br>
+        <img src="new.jpg" class="disp_none">
+        <img src="new.jpg" class="disp_none">
+        <br><br>
+        <h2>Positioning</h2>
+        <p class="pos_stc">Static</p>
+        <br><br>
+        <p class="pos_rel">Relative</p>
+        <br><br>
+        <p class="pos_fix">Fixed</p>
+        <br><br>
+        <p class="pos_abs">Absolute</p>
+
+      </body>
+ </html>
