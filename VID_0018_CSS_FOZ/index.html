@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+        <title>YadaYada</title>
+        <style>
+
+         .alignrr{
+            float: right;
+            text-align: right;
+            width: 200px;
+         }
+
+         .alignrl{
+            float: right;
+            text-align: left;
+            width: 200px;
+         }
+
+         .alignlr{
+            float: left;
+            text-align: right;
+            width: 200px;
+         }
+
+         .alignll{
+            float: left;
+            text-align: left;
+            width: 200px;
+         }
+
+         .ta_center{
+            text-align: center;
+            width: 200px;
+         }
+
+         .ta_justify{
+            text-align: justify;
+            width: 200px;
+         }
+
+         .opaque{
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+            background: #000;
+            opacity: 1;
+         }
+
+         .transluscent{
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+            background: #000;
+            opacity: 0.5;
+         }
+
+         .transparent{
+            width: 250px;
+            height: 250px;
+            display: inline-block;
+            background: #000;
+            opacity: 0;
+         }
+
+         .lower{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            z-index: 3;
+         }
+
+         .lower img{
+            width: 100%;
+            height: 100%;
+         }
+
+         .higher{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            z-index: 4;
+            background: #FFF;
+            opacity: 0.4;
+         }
+
+        </style>
+     </head>
+     <body>
+        
+      <p class="alignrr">
+         This is a Right Aligned Paragraph which has Right Aligned Text
+      </p>
+      <br><br>
+      <p class="alignrl">
+         This is a Right Aligned Paragraph which has Left Aligned Text
+      </p>
+      <br><br>
+      <p class="alignlr">
+         This is a Left Aligned Paragraph which has Right Aligned Text
+      </p>
+      <br><br>
+      <p class="alignll">
+         This is a Left Aligned Paragraph which has Left Aligned Text
+      </p>
+      <br<br>>
+      <p class="ta_center">
+         This is a centrally aligned paragraphh. and now we will create the next paragraph.
+      </p>
+      <br<br>
+      <p class="ta_justify">
+         This is a aligned justified paragraphh. and now we will create the next paragraph.
+      </p>
+      <br><br><br><br>
+      <div class="opaque"></div>
+      <div class="transluscent"></div>
+      <div class="transparent"></div>
+
+      <br><br>
+
+      <div class="lower">
+         <img src="graphics.jpg">
+      </div>
+      <div class="higher">
+
+      </div>
+    </body>
+ </html>
