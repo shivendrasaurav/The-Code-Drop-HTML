@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+      <title>YadaYada</title>
+      <style>
+
+        button{
+          width: 250px;
+          padding: 10px 5px;
+          border: 4px solid red;
+          background: #1e1e1e;
+          color: white;
+          font-size: 16px;
+        }
+
+        button.hover:hover{
+          background: red;
+          border: 4px solid #1e1e1e;
+        }
+
+        button.focus:focus{
+          background: #EEE;
+          color: #1e1e1e;
+          border: 4px solid #1e1e1e;
+        }
+
+        a{
+          background: black;
+          padding: 5px 10px;
+          color: white;
+          text-decoration: none;
+        }
+        a.visited:visited{
+          background: red;
+          color: white;
+        }
+        a.active:active{
+          background: purple;
+          color: white;
+        }
+
+        .transit{
+          min-width: 300px;
+          background: #DDD;
+          color: black;
+          border: none;
+          box-shadow: 0 2px 2px 0 #9e9e9e;
+          transition: 1s ease 0s;
+        }
+        .transit:hover{
+          opacity: 0.8;
+          box-shadow: 0 8px 8px 0 #3e3e3e;
+          transition: 1s ease 0s;
+        }
+        .transit:focus{
+          border: none;
+          box-shadow: 0 10px 10px red;
+        }
+
+      </style>
+   </head>
+   <body>
+
+    <button>
+      This is a simple button
+    </button>
+    <br><br>
+    <button class="hover">
+      This is a hoverable button
+    </button>
+    <br><br>
+    <button class="focus">
+      This is a focusable button
+    </button>
+
+    <br><br><br>
+
+    <a href="https:github.com">Go To GitHub</a>
+    <br><br>
+    <a class="active" href="#">Active Link</a>
+    <br><br>
+    <a class="visited" href="https:github.com">Go To GitHub Visited</a>
+    <br><br>
+
+    <button class="transit">
+      This is a button with transition effect
+    </button>
+   </body>
+ </html>
