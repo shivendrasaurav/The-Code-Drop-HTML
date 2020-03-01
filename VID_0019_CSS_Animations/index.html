@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+      <title>YadaYada</title>
+      <style>
+
+        .anim1{
+          height: 100px;
+          width: 100px;
+          padding: 10px;
+          border-radius: 5px;
+          background: #ccc;
+          animation: anim1 2s linear 1s infinite alternate;
+        }
+
+        @keyframes anim1{
+          from{
+            background: #ccc;
+            margin-left: 0px;
+          }
+          to{
+            background: #999;
+            margin-left: 100px;
+          }
+        }
+
+        .animbtn{
+          padding: 10px;
+          border: none;
+          font-weight: 600;
+          animation: btnanimation 4s linear infinite;
+        }
+
+        @keyframes btnanimation{
+          0%{
+            background: #999;
+            color: #222;
+          }
+          33%{
+            transform: scale(1.1);
+          }
+          66%{
+            margin-left: 200px;
+            margin-top: 100px
+          }
+          100%{
+            background: red;
+            color: white;
+          }
+        }
+
+        .spin{
+          width: 100px;
+          height: 100px;
+          border-top: 5px solid rgb(24, 189, 201);
+          border-radius: 100%;
+          animation: spinner 500ms linear infinite;
+          position: absolute;
+          top: 400px;
+        }
+        @keyframes spinner{
+          from{
+            transform: rotate(0deg);
+          }
+          to{
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+   </head>
+   <body>
+     
+    <div class="anim1"></div>
+    <br><br>
+    <button class="animbtn">This is an Animated button</button>
+    
+    <br><Br>
+      <div class="spin"></div>
+   </body>
+ </html>
