@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YADAYADA</title>
+        <link href="title.png" rel="icon">
+        <meta charset="UTF-8">
+        <meta name="description" content="An Example Description">
+        <meta name="viewport" content="width=initial-width, intial-scale=1.0">
+        <style>
+
+            *{outline: none;}
+            .check{
+                display: block;
+                user-select: none;
+            }
+
+            .check input[type=checkbox]{
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                z-index: 1;
+                position: absolute;
+                margin: 0px;
+                width: 40px;
+                height: 40px;
+                border-radius: 0px;
+                cursor: pointer;
+            }
+
+            .checkmark{
+                color: transparent;
+                z-index: 0;
+                display: inline-block;
+                position: absolute;
+                margin: 0px;
+                border: 1px solid #CCC;
+                border-radius: 0px;
+                height: 40px;
+                width: 40px;
+            }
+
+            .check input[type=checkbox]:hover{
+                border: 1px solid #555;
+            }
+
+            .check input[type=checkbox]:checked ~ .checkmark{
+                background: #06A7DD;
+                color: white;
+                border: 1px solid #000;
+            }
+
+            input[type="radio"].custom{
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                width: 40px;
+                height: 40px;
+                border-radius: 90px;
+                border: 1px solid #CCC;
+            }
+            input[type="radio"].custom:hover{
+                background: #CCC;
+                border: 1px solid #777;
+            }
+
+            input[type="radio"].custom:checked{
+                background: #1e1e1e;
+                border: 5px solid white;
+                padding: 2px;
+                box-shadow: 0px 0px 2px 2px  #06A7DD;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="check">
+            <input type="checkbox">
+            <button class="checkmark">X</button>
+        </div>
+        <br><br><br><br>
+        <input type="radio" class="custom">
+
+    </body>
+</html>

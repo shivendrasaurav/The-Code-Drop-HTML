@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YADAYADA</title>
+        <link href="title.png" rel="icon">
+        <meta charset="UTF-8">
+        <meta name="description" content="An Example Description">
+        <meta name="viewport" content="width=initial-width, intial-scale=1.0">
+        <style>
+
+            label{
+                font-weight: 700;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+
+            input[type="text"], input[type="number"]{
+                width: 250px;
+                height: 25px;
+                padding: 2px 10px;
+                font-size: 16px;
+                border: none;
+                border-bottom: 2px solid gray;
+                outline: none;
+            }
+            
+            input[type="text"]:hover, input[type="number"]:hover{
+                border-bottom: 2px solid red;
+            }
+
+            input[type="text"]:focus, input[type="number"]:focus{
+                border-bottom: 2px solid red;
+                background: #1e1e1e;
+                color: #fff;
+            }
+
+            textarea{
+                width: 250px;
+                padding: 2px 4px;
+                font-size: 16px;
+                border: 2px solid gray;
+                height: 100px;
+            }
+
+            input[type="submit"]{
+                border: 1px solid black;
+                padding: 4px 10px;
+                background: #1c1c1c;
+                color: white;
+                width: 120px;
+                height: 30px;
+                font-size: 16px;
+            }
+            input[type="submit"]:hover{
+                opacity: 0.8;
+                border: 2px solid red;
+            }
+            input[type="submit"]:focus{
+                opacity: 1;
+                border: 2px solid black;
+                background: red;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 style="font-family: Arial, Helvetica, sans-serif;">Contact Form</h1>
+        <form>
+            <input type="text"><br>
+            <label>Name</label>
+            <br><br>
+            <input type="number"><br>
+            <label>Contact</label>
+            <br><br>
+            <textarea>
+
+            </textarea><br>
+            <label>Message</label><br>
+            <br><br>
+            <input type="submit" value="Click To Send">
+        </form>
+
+    </body>
+</html>
