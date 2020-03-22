@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YADAYADA</title>
+        <link href="title.png" rel="icon">
+        <meta charset="UTF-8">
+        <meta name="description" content="An Example Description">
+        <meta name="viewport" content="width=initial-width, intial-scale=1.0">
+        <style>
+
+            input[type="search"].searchbox{
+                background: #f1f1f1;
+                background-image: url('./search.jfif');
+                background-position: 0px 0px;
+                background-repeat: no-repeat;
+                padding-left: 40px;
+                height: 30px;
+                width: 300px;
+                border: 1px solid #ccc;
+                outline: none;
+                transition: 300ms ease;
+            }
+
+            input[type="search"].searchbox:hover{
+                border: 1px solid #aaa;
+                background: #fff;
+                background-image: url('./search.jfif');
+                background-position: 0px 0px;
+                background-repeat: no-repeat;
+                padding-left: 40px;
+                transition: 300ms ease;
+            }
+            
+            input[type="search"].searchbox:active,  input[type="search"].searchbox:focus{
+                border: 1.5px solid #06a7dd;
+                transition: 300ms ease;
+            }
+
+            select{
+                width: 300px;
+                height: 30px;
+                background: #f1f1f1;
+            }
+
+            input[type="range"].slider{
+                -webkit-appearance: none;
+                appearance: none;
+                -moz-appearance: none;
+                outline: none;
+                height: 10px;
+                background: #e1e1e1;
+                border-radius: 90px;
+                width: 300px;
+            }
+
+            input[type="range"].slider:hover{
+                background: #f1f1f1;
+            }
+
+            input[type="range"].slider::-webkit-slider-thumb{
+                -webkit-appearance: none;
+                height: 20px;
+                width: 8px;
+                background: #06a7dd;
+                border-radius: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <input type="search" class="searchbox" placeholder="Enter Search String">
+        
+        <br><br>
+
+        <select>
+            <option>Select An Option</option>
+            <option value="Severe Acute Respiratory Syndrome">SARS</option>
+            <option value="Middle East Respiratory Syndrome">MERS</option>
+            <option value="Coronavirus Disease 19">Covid 19</option>
+        </select>
+        
+        <br><br>
+        
+        <input type="range" class="slider">
+
+    </body>
+</html>
