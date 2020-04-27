@@ -1,0 +1,99 @@
+.row{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+form{width: 80%}
+
+.column{
+    display: inline-block;
+}
+
+.large9{width: 99%}
+.large8{width: 88%}
+.large7{width: 77%}
+.large6{width: 66%}
+.large5{width: 55%}
+.large4{width: 44%}
+.large3{width: 33%}
+.large2{width: 22%}
+.large1{width: 11%}
+.large0{width: 0%;}
+
+@media (max-width: 640px) and (min-width: 240px){
+    .small9{width: 99%}
+    .small8{width: 88%}
+    .small7{width: 77%}
+    .small6{width: 66%}
+    .small5{width: 55%}
+    .small4{width: 44%}
+    .small3{width: 33%}
+    .small2{width: 22%}
+    .small1{width: 11%}
+    .small0{width: 0%;}
+}
+
+@media (min-width: 641px) and (max-width: 1023px){
+    .medium9{width: 99%}
+    .medium8{width: 88%}
+    .medium7{width: 77%}
+    .medium6{width: 66%}
+    .medium5{width: 55%}
+    .medium4{width: 44%}
+    .medium3{width: 33%}
+    .medium2{width: 22%}
+    .medium1{width: 11%}
+    .medium0{width: 0%;}
+}
+
+.ta_center{
+    text-align: center;
+}
+.ta_right{
+    text-align: right;
+}
+.ta_left{
+    text-align: left;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e1e1e;
+    background: #F3f3f3;
+}
+
+.center{
+    display: block;
+    margin: auto;
+}
+h1{
+    font-size: 96px;
+}
+h3{
+    font-size: 36px;
+}   
+h5{
+    font-size: 20px;
+}
+
+input[type='text'], input[type='password']{
+    border: none;
+    border-bottom: 2px solid #1e1e1e;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+}
+label{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+button.submit{
+    width: 100%;
+    height: 40px;
+    font-size: 28px;
+    background: rgb(46, 12, 199);
+    color: #FFF;
+    border: none;
+}
