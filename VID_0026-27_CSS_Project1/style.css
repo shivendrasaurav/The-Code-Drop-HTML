@@ -28,7 +28,7 @@ form{width: 80%}
     .small6{width: 66%}
     .small5{width: 55%}
     .small4{width: 44%}
-    .small3{width: 33%}
+    .small3{width: 30%}
     .small2{width: 22%}
     .small1{width: 11%}
     .small0{width: 0%;}
@@ -111,3 +111,58 @@ button.submit{
     border: none;
 }
 
+.pr_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.right{
+    float: right;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.topnav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #06a7dd;
+}
+.topnav a{
+    color: #FFF;
+    text-decoration: none;
+}
+.tabbed_bar{
+    background: #880088;
+    width: 100%;
+    padding: 5px;
+}
+
+.active{
+    border-bottom: solid 2px #fff;
+}
+#chatlist{
+    position: relative;
+    top: 120px;
+}
+.pr_name{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.pr_lastm{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.chat_cont{
+    background: #DDD;
+    padding: 1%;
+}
