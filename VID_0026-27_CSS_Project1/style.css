@@ -130,6 +130,7 @@ button.submit{
 }
 
 .topnav{
+    z-index: 10;
     position: fixed;
     top: 0;
     left: 0;
@@ -165,4 +166,68 @@ button.submit{
 .chat_cont{
     background: #DDD;
     padding: 1%;
+}
+
+.sender{
+    background: #06a77d;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 85%;
+    float: left;
+    transform: rotate(180deg);
+    border-radius: 12px;
+}
+.receiver{
+    background: #880088;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 85%;
+    float: right;
+    transform: rotate(180deg);
+    border-radius: 12px;
+}
+.chat_container{
+    transform: rotate(180deg);
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+
+.chat_form{
+    width: 100%;
+    margin-top: 38px;
+}
+
+.chat_form input[type="text"]{
+    border: 1px solid #06a77d;
+    padding: 10px;
+    font-size: 14px;
+    width: 80%;
+    margin-top: 10px;
+}
+.fullscreen{
+    height: 88vh;
+    width: 100%;
+}
+
+.close{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: red;
+    color: #fff;
+    border-radius: 90px;
+}
+
+.profile_page_img{
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-left: 80px;
 }
